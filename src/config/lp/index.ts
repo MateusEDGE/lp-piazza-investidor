@@ -17,6 +17,8 @@ import { investidor } from "./investidor";
 /** O empreendimento desta landing, como o CMS o conhece. */
 export const SLUG = "piazza-nicomedes";
 
+export const LP_ID = "lp-piazza-investidor";
+
 /**
  * A página deste empreendimento no site institucional.
  *

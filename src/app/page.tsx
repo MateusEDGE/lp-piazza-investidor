@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import { BarraFixa } from "@/components/layout/BarraFixa";
 import { PaginaLpTrafego } from "@/components/lp-trafego/PaginaLpTrafego";
-import { MONTAR } from "@/config/lp";
+import { LP_ID, MONTAR } from "@/config/lp";
 import { ativoDaLanding } from "@/lib/landing";
 
 /**
- * A landing do investidor, na raiz do domínio.
+ * A landing, na raiz do domínio.
  *
  * Este projeto recebe tráfego pago de um público só, então a página mora em
  * `/`: o anúncio aponta para o domínio e pronto, sem caminho extra.
@@ -33,7 +33,7 @@ export default async function Page() {
 
   return (
     <>
-      <PaginaLpTrafego ativo={ativo} publico={publico} />
+      <PaginaLpTrafego ativo={ativo} publico={publico} lpOrigem={LP_ID} />
       <BarraFixa
         whatsappNumero={ativo.whatsappNumero}
         whatsappMensagem={publico.whatsapp}
