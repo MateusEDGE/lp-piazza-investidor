@@ -57,6 +57,11 @@ export type PublicoLp = {
     subtitulo: string;
     cta: string;
     imagem: string;
+    /**
+     * Título do vídeo do projeto, ao lado da promessa. Só as páginas que
+     * mostram o vídeo no hero preenchem; sem ele o vídeo entra sem título.
+     */
+    tituloVideo?: string;
   };
   /** números da faixa de prova, ainda dentro do hero */
   provas: readonly { valor: string; label: string }[];
