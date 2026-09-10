@@ -37,6 +37,8 @@ export const investidor: MontarPublico = (a) => ({
     subtitulo: `${a.construcao} de área construída, ${a.terreno} de terreno, mais de 30 operações e ${a.vagas} vagas em um dos pontos mais nobres de ${a.cidade}. Um strip mall concebido, ancorado, comercializado e administrado pela mesma Nexa Malls.`,
     cta: "Receber a apresentação do ativo",
     imagem: foto(a, "Fachada e mix de lojas"),
+    // Preenchido só aqui: leva o vídeo do projeto para a primeira tela e tira
+    // os cards de números do hero. Ver o comentário em `types.ts`.
     tituloVideo: "Investindo no Piazza",
   },
   provas: [
