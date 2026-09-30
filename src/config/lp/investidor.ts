@@ -83,7 +83,7 @@ export const investidor: MontarPublico = (a) => ({
         dado: a.cidade,
         titulo: "A praça onde a Nexa já opera",
         texto:
-          "Todo o portfólio da casa está em Uberlândia: Bluemall, Villa Viseu, Uberlândia Shopping, Mall Silvio Rugani e BlueMall Centro. Curva de aprendizado, relação com os varejistas e leitura de vocação já pagas.",
+          "Todo o portfólio da casa está em Uberlândia: Bluemall, Villa Viseu, Uberlândia Shopping, Mall Tubalina e BlueMall Centro. Curva de aprendizado, relação com os varejistas e leitura de vocação já pagas.",
       },
       {
         dado: "Gestão própria",
@@ -198,7 +198,7 @@ export const investidor: MontarPublico = (a) => ({
       {
         pergunta: "Por que Uberlândia?",
         resposta:
-          "É a praça onde a Nexa concentra o portfólio e onde já opera ativos maduros: o Bluemall chegou a 98% de ocupação em quatro meses de inauguração e o Villa Viseu está em 95% sob a nossa gestão. Comercializar em uma praça conhecida é diferente de estrear em uma cidade nova.",
+          "É a praça onde a Nexa concentra o portfólio e onde já tem resultado para mostrar: o Bluemall chegou a 98% de ocupação em quatro meses de inauguração e o Villa Viseu está em 95% sob a nossa gestão. Comercializar em uma praça conhecida é diferente de estrear em uma cidade nova.",
       },
       {
         pergunta: "Em que fase o empreendimento está?",
